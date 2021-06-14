@@ -1,0 +1,10 @@
+com\mindtree\xml\model\Singer.class
+com\mindtree\xml\utility\ClassNFCustomException.class
+com\mindtree\xml\utility\GetConnection.class
+com\mindtree\xml\dao\XmlDAOInterface.class
+com\mindtree\xml\service\XmlServiceInterface.class
+com\mindtree\xml\client\Main.class
+com\mindtree\xml\model\Songs.class
+com\mindtree\xml\service\XmlServiceImpl.class
+com\mindtree\xml\dao\XmlDAOImpl.class
+com\mindtree\xml\model\Song.class

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<songs>
+    <song>
+        <singers>
+            <singerGender>female</singerGender>
+            <singerId>1</singerId>
+            <singerName>Manavi</singerName>
+        </singers>
+        <singers>
+            <singerGender>male</singerGender>
+            <singerId>2</singerId>
+            <singerName>Aman</singerName>
+        </singers>
+        <singers>
+            <singerGender>female</singerGender>
+            <singerId>3</singerId>
+            <singerName>Tjeal</singerName>
+        </singers>
+        <songId>123</songId>
+        <songLength>220</songLength>
+        <songName>Urvashi Urvashi</songName>
+    </song>
+    <song>
+        <singers>
+            <singerGender>male</singerGender>
+            <singerId>2</singerId>
+            <singerName>Aman</singerName>
+        </singers>
+        <singers>
+            <singerGender>female</singerGender>
+            <singerId>3</singerId>
+            <singerName>Tjeal</singerName>
+        </singers>
+        <songId>124</songId>
+        <songLength>230</songLength>
+        <songName>Dil Se</songName>
+    </song>
+    <song>
+        <singers>
+            <singerGender>male</singerGender>
+            <singerId>2</singerId>
+            <singerName>Aman</singerName>
+        </singers>
+        <songId>125</songId>
+        <songLength>240</songLength>
+        <songName>Rehna thu</songName>
+    </song>
+</songs>
