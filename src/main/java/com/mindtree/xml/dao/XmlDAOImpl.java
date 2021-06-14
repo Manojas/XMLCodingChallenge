@@ -3,6 +3,7 @@ package com.mindtree.xml.dao;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
@@ -57,6 +58,28 @@ public class XmlDAOImpl implements XmlDAOInterface{
 		catch(Exception e)
 		{
 			System.out.println(e.getMessage());
+		}
+		finally {
+			if(pstmt2!=null ||pstmt1!=null)
+			{
+				try {
+					pstmt2.close();
+					pstmt1.close();
+				} catch (SQLException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
+			
+			if(con!=null)
+			{
+				try {
+					con.close();
+				} catch (SQLException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
 		}
 		return songs;
 	}
